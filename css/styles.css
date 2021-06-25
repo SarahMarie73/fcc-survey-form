@@ -3,10 +3,18 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4;
+  color: white;
   background-color: black;
 }
 
 h1 {
-  color: white;
   text-align: center;
+  margin: auto;
+  padding-top: 30px;
+}
+
+p {
+  text-align: center;
+  margin-top: 0;
+  font-style: italic;
 }

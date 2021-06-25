@@ -7,14 +7,19 @@ body {
   background-color: black;
 }
 
-h1 {
-  text-align: center;
+#title {
   margin: auto;
   padding-top: 30px;
+  color: rgba(60, 246, 252)
 }
 
-p {
-  text-align: center;
+.description {
   margin-top: 0;
   font-style: italic;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(60, 246, 252, 0.925);
+}
+
+.text-center {
+  text-align: center;
 }

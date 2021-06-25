@@ -9,7 +9,6 @@ body {
 
 #title {
   margin: auto;
-  padding-top: 30px;
   color: rgba(60, 246, 252)
 }
 
@@ -22,4 +21,9 @@ body {
 
 .text-center {
   text-align: center;
+}
+
+.container {
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
 }

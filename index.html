@@ -27,6 +27,46 @@
           <label id="email-label" for="email">Email</label>
           <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required/>
         </div>
+        <div class="form-group">
+          <label id="number-label" for="number">On a scale of 1 - 10, how would you rate your experience?</label>
+          <input type="number" name="number" id="number" min="1" max="10" class="form-control" placeholder="Enter a number" required/>
+        </div>
+        <div class="form-group">
+          <p>Which option best describes your current role?</p>
+          <select id="dropdown" name="role" class="form-control">
+            <option disabled selected value>Select current role</option>
+            <option value="student">Student</option>
+            <option value="full-time-job">Full Time Job</option>
+            <option value="full-time-learner">Full Time Learner</option>
+            <option value="other">Other</option>
+            <option value="prefer-not-to-say">Prefer not to say</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <p>Would you recommend Rize Virtual to a friend?</p>
+          <label><input name="user-recommend" value="definitely" type="radio" class="input-radio">Definitely</label>
+          <label><input name="user-recommend" value="maybe" type="radio" class="input-radio">Maybe</label>
+          <label><input name="user-recommend" value="not-sure" type="radio" class="input-radio">Not Sure</label>
+        </div>
+        <div class="form-group">
+          <p>Which services did you use?</p>
+          <label><input type="checkbox" class="input-checkbox" name="web-design" value="web-design">Web Design</label>
+          <label><input type="checkbox" class="input-checkbox" name="theme-development" value="theme-development">Theme Development</label>
+          <label><input type="checkbox" class="input-checkbox" name="plugin-development" value="plugin-development">Plugin Development</label>
+          <label><input type="checkbox" class="input-checkbox" name="website-maintenance" value="website-maintenance">Website Maintenance</label>
+          <label><input type="checkbox" class="input-checkbox" name="website-upgrade" value="website-upgrade">Website Upgrade</label>
+          <label><input type="checkbox" class="input-checkbox" name="seo" value="seo">SEO Services</label>
+          <label><input type="checkbox" class="input-checkbox" name="online-marketing" value="online-marketing">Online Marketing</label>
+          <label><input type="checkbox" class="input-checkbox" name="social-media" value="social-media">Social Media</label>
+        </div>
+        <div class="form-group">
+          <p>Any other comments or suggestions?</p>
+          <textarea id="comment" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
       </form>
     </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>

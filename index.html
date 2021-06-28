@@ -20,19 +20,19 @@
       </header>
       <form id="survey-form">
         <div class="form-group">
-          <label id="name-label" for="name">Name</label>
+          <label class="question" id="name-label" for="name">Name</label>
           <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required/>
         </div>
         <div class="form-group">
-          <label id="email-label" for="email">Email</label>
+          <label class="question" id="email-label" for="email">Email</label>
           <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required/>
         </div>
         <div class="form-group">
-          <label id="number-label" for="number">On a scale of 1 - 10, how would you rate your experience?</label>
+          <label class="question" id="number-label" for="number">On a scale of 1 - 10, how would you rate your experience?</label>
           <input type="number" name="number" id="number" min="1" max="10" class="form-control" placeholder="Enter a number" required/>
         </div>
         <div class="form-group">
-          <p>Which option best describes your current role?</p>
+          <label class="question">Which option best describes your current role?</label>
           <select id="dropdown" name="role" class="form-control">
             <option disabled selected value>Select current role</option>
             <option value="student">Student</option>
@@ -43,13 +43,13 @@
           </select>
         </div>
         <div class="form-group">
-          <p>Would you recommend Rize Virtual to a friend?</p>
+          <label class="question">Would you recommend Rize Virtual to a friend?</label>
           <label><input name="user-recommend" value="definitely" type="radio" class="input-radio">Definitely</label>
           <label><input name="user-recommend" value="maybe" type="radio" class="input-radio">Maybe</label>
           <label><input name="user-recommend" value="not-sure" type="radio" class="input-radio">Not Sure</label>
         </div>
         <div class="form-group">
-          <p>Which services did you use?</p>
+          <label class="question">Which services did you use?</label>
           <label><input type="checkbox" class="input-checkbox" name="web-design" value="web-design">Web Design</label>
           <label><input type="checkbox" class="input-checkbox" name="theme-development" value="theme-development">Theme Development</label>
           <label><input type="checkbox" class="input-checkbox" name="plugin-development" value="plugin-development">Plugin Development</label>
@@ -60,7 +60,7 @@
           <label><input type="checkbox" class="input-checkbox" name="social-media" value="social-media">Social Media</label>
         </div>
         <div class="form-group">
-          <p>Any other comments or suggestions?</p>
+          <label class="question">Any other comments or suggestions?</label>
           <textarea id="comment" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
         </div>
         <div class="form-group">
